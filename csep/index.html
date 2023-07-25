@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Sciences Syllabus (Class VI-VIII)</title>
+    <!-- link rel="shortcut icon" href="favicon.ico" type="image/x-icon" -->
+    <link rel="stylesheet" media="screen" href="assets/application.css">
+    <script src="assets/modernize.css"></script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    <script src="javascript/selectivizr-min.js"></script>
+    <![endif]-->
+</head>
+<body id="documentation">
+    <div class="inner">
+        <header>
+            <a href="#">
+                <img src="images/logo@2x.png" width="110" height="46" alt="CSEP"/>
+            </a>
+            <span id="tagline"></span>
+            <script type="text/javascript">
+                var taglines = ["fast-note-making", "everything-is-local", "distributed-even-if-your-workflow-isnt", "local-access-on-the-cheap", "distributed-is-the-new-centralized"];
+                var tagline = taglines[Math.floor(Math.random() * taglines.length)];
+                document.getElementById('tagline').innerHTML = '--' + tagline;
+            </script>
+            <form id="search" action="search/results">
+                <input type="text" name="search" id="search-text" placeholder="Search entire site..." autocomplete="off" />
+            </form>
+            <div id="search-results"></div>
+        </header>
+    </div> <!-- .inner -->
+    <div class="inner">
+        <div id="content-wrapper">
+            <button class="sidebar-btn"></button>
+            <aside class="sidebar" id="sidebar">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="about">About</a>
+                            <ul>
+                                <li>
+                                    <a href="about/author">Author</a>
+                                </li>
+                                <li>
+                                    <a href="about/free-and-open-source">Free and open Source</a>
+                                </li>
+                                <li>
+                                    <a href="about/copyright">Copyright</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="active" href="doc">Documentation</a>
+                            <ul class="expanded">
+                                <li>
+                                    <a href="doc" class="active">Reference</a>
+                                </li>
+                                <li>
+                                    <a href="book">Book</a>
+                                </li>
+                                <li>
+                                    <a href="videos">videos</a>
+                                </li>
+                                <li>
+                                    <a href="doc/ext">External Links</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="downloads">Downloads</a>
+                            <ul>
+                                <li>
+                                    <a href="downloads/notes">Notes</a>
+                                </li>
+                                <li>
+                                    <a href="downloads/news">News</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="community">Community</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <div id="content">
+                <div id="reference-version">
+                    <a href="#" class="dropdown-trigger" id="reference-languages-trigger" data-panel-id="l10n-versions-dropdown">English ▾</a>
+                    <div class="dropdown-panel right" id="l10n-versions-dropdown">
+                        <header>
+                            Localized versions of <strong>csep</strong> manual
+                        </header>
+                        <ol class="reference-previous-versions">
+                            <li>
+                                <a href="docs/csep/de">
+                                    <span class="version">Deutsch</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="docs/csep/en">
+                                    <span class="version">English</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="docs/csep/fr">
+                                    <span class="version">Français</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="docs/csep/pt_BR">
+                                    <span class="version">Português (Brasil)</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="docs/csep/zh_HANS-CN">
+                                    <span class="version">简体中文</span>
+                                </a>
+                            </li>
+                        </ol>
+                        <footer>
+                            Want to read in your language or fix typos?<br>
+                            <a href="https://github.com/psm4/psm4.github.io/csep/csep-manpages-l10n">You can help translate this</a>.
+                        </footer>
+                    </div>
+
+                    <a href="#" class="dropdown-trigger" id="reference-topics-trigger" data-panel-id="topics-dropdown">Topics ▾</a>
+                    <div class="dropdown-panel right" id="topics-dropdown">
+                        <div class="three-column">
+                            <div class="column-left">
+                                <h3 class="setup">Setup and Config</h3>
+                                <ul class="unstyled">
+                                    <li><a href="docs/csep">csep</a></li>
+                                    <li><a class="active" href="docs/csep-config">config</a></li>
+                                    <li><a href="docs/csep-help">help</a></li>
+                                    <li><a href="docs/csep-bugreport">bugreport</a></li>
+                                    <li><a href="doc/credential-helpers">Credential helpers</a></li>
+                                </ul>
+
+                                <h3 class="projects">Getting and Creating Projects</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/application.js"></script>
+</body>
+</html>
